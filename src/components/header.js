@@ -7,7 +7,7 @@ const Header = ()=>{
         site{
             siteMetadata{
                 title,
-                author
+                
             }
         }
     }
