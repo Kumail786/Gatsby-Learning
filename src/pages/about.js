@@ -1,15 +1,14 @@
-import React from 'react'
-import Header from '../components/header'
+import React from "react"
+import Layout from "../components/layout"
 
-const About = ()=>{
-    return(
-        <div>
-            <Header/>
-            <h1>About Me</h1>
-            <p>Kumail Rawjani</p>
-            <p>email : "Kumailrawjani900@gmail.com"</p>
-        </div>
-    )
+const About = () => {
+  return (
+    <Layout>
+      <h1>About Me</h1>
+      <p>Kumail Rawjani</p>
+      <p>email : "Kumailrawjani900@gmail.com"</p>
+    </Layout>
+  )
 }
 
 export default About

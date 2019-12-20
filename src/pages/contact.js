@@ -1,17 +1,14 @@
 import React from "react"
-import Footer from "../components/footer"
 import { Link } from "gatsby"
-import Header from '../components/header'
+import Layout from "../components/layout"
 const Contact = () => {
   return (
-    <div>
-        <Footer/>
+    <Layout>
       <h1>Contact Me</h1>
       <p>Kumail Rawjani</p>
       <p>phone : "03172516561"</p>
       <Link to="/about">Want to know About me Click</Link>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
